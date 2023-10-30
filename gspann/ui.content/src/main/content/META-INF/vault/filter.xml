@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/gspann" mode="merge"/>
+    <filter root="/content/gspann" mode="merge"/>
+    <filter root="/content/dam/gspann" mode="merge">
+        <exclude pattern="/content/dam/gspann(/.*)?"/>
+        <include pattern="/content/dam/gspann/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/gspann/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/gspann" mode="merge"/>
+</workspaceFilter>
