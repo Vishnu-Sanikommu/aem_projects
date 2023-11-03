@@ -1,5 +1,7 @@
 package com.gspann.core.models;
 
-public class test {
+public interface Test {
+
+    public String getTitle();
     
 }
